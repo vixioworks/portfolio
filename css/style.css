@@ -1,0 +1,15 @@
+@import url(Global/global.css);
+@import url(Home/header.css);
+@import url(Home/introducao.css);
+@import url(./meu-trabalho/meu-trabalho-lista.css);
+@import url(./formacao/formacao.css);
+@import url(./contato/contato.css);
+:root {
+  --tamanho-tela: 1216px;
+  --black-total: #000000;
+  --font-principal: Poppins;
+  --font-secundaria: Raoboto;
+  --cor-font-secundaria: #b2b2b2;
+  --cor-nav-a: #111111;
+}
+

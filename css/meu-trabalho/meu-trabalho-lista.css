@@ -1,0 +1,68 @@
+.meu-trabalho-lista {
+  color: black;
+}
+.meu-trabalho-lista h2 {
+  font-family: var(--font-principal);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: var(--tamanho-tela);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.meu-trabalho-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  padding: 20px;
+  padding-bottom: 120px;
+  
+}
+
+.meu-trabalho-lista li {
+  min-width: 280px;
+}
+
+.meu-trabalho-lista h3 {
+  color: black;
+  font-weight: 600;
+
+  font-family: var(--font-principal);
+  display: flex;
+  align-items: center;
+}
+.meu-trabalho-lista img {
+  margin-bottom: 5px;
+}
+.meu-trabalho-lista h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: #c6ba77;
+  margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.meu-trabalho-lista a:hover h3::before {
+  width: 24px;
+}
+
+@media(width <= 800px){
+  .meu-trabalho-lista h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    
+  }
+  .meu-trabalho-lista ul {
+    padding-bottom: 20px;
+  }
+ 
+}
