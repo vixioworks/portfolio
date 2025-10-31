@@ -9,7 +9,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 100px;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 80px 20px 0 20px;
 }
 
 .introducao__conteudo {
@@ -45,15 +45,15 @@
 }
 
 @media (width<=800px) {
-  .introducao__background{
+  .introducao__background {
     background-color: black;
   }
   .introducao {
     display: flex;
     flex-direction: column;
-    padding: 40px 20px 0;
+    padding: 200px 20px 0;
     gap: 40px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   .introducao__conteudo {
     padding: 0;

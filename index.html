@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfólio de Roni Ribeiro - Desenvolvedor Front-End e UI/UX Designer.">
@@ -8,124 +9,148 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Início do cabeçalho da página com navegação -->
     <header class="header">
-      <div class="header__navegacao">
-        <!-- Logotipo da VIXIO -->
-        <div>
-          <img src="img/vixio.png" alt="Logo Vixio">
-        </div>
+        <div class="header__navegacao">
+            <!-- Logotipo da VIXIO -->
+            <div>
+                <img src="img/vixio.png" alt="Logo Vixio">
+            </div>
 
-        <!-- Menu de navegação principal -->
-        <ul class="header__menu">
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Formação</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </div>
+            <!-- Menu de navegação principal -->
+            <ul class="header__menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- Seção principal de introdução -->
-    <main class="introducao__background">
-      <div class="introducao">
-        <!-- Conteúdo de texto da introdução -->
-        <div class="introducao__conteudo">
-          <h1>Desenvolvedor Front End & UX/UI Designer</h1>
-          <p>Sou Roni Ribeiro, desenvolvedor front-end e fundador da VIXIO. Transformo ideias em interfaces modernas. Meu código é limpo, meu design é preciso, e cada projeto é feito para impressionar.</p>
-        </div>
+    <main class="introducao__background" id="sobre">
+        <div class="introducao ">
+            <!-- Conteúdo de texto da introdução -->
+            <div class="introducao__conteudo">
+                <h1 class="js-scroll-left">Desenvolvedor Front End & UX/UI Designer</h1>
+                <p class="js-scroll-left">Sou Roni Ribeiro, desenvolvedor front-end e fundador da VIXIO. Transformo ideias em interfaces modernas.
+                    Meu código é limpo, meu design é preciso, e cada projeto é feito para impressionar.</p>
+            </div>
 
-        <!-- Imagem de perfil -->
-        <div>
-          <img src="img/foto__perfil.png" alt="Foto de perfil de Roni Ribeiro">
+            <!-- Imagem de perfil -->
+            <div>
+                <img class="js-scroll-right" src="img/foto__perfil.png" alt="Foto de perfil de Roni Ribeiro">
+            </div>
         </div>
-      </div>
     </main>
 
     <!-- Lista de projetos realizados -->
-    <article class="meu-trabalho-lista">
-      <h2>Meu trabalho.</h2>
-      <ul>
-        <!-- Projeto 1 -->
-        <li>
-          <a href="https://vixio.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <img src="img/trabalho01.png" alt="Projeto Vixio ecommerce">
-            <h3>Vixio ecommerce</h3>
-          </a>
-        </li>
+    <article class="meu-trabalho-lista" id="projetos">
+        <h2 class="js-scroll-left">Projetos Recentes.</h2>
 
-        <!-- Projeto 2 -->
-        <li>
-          <a href="https://apodastronomypictureoftheday.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <img src="img/trabalho02.png" alt="Projeto Nasa Imagem do Dia">
-            <h3>Nasa Imagem do dia</h3>
-          </a>
-        </li>
 
-        <!-- Projeto 3 -->
-        <li>
-          <a href="https://caravanofdreams.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <img src="img/trabalho03.png" alt="Projeto Agência de Viagem">
-            <h3>Agência de Viagem</h3>
-          </a>
-        </li>
-      </ul>
+        <div class="meu-trabalho">
+            <div>
+                <img class="js-scroll-left" src="img/p1.png" alt="">
+            </div>
+            <div class="js-scroll-right">
+                <h4 class="js-scroll-right">Vixio E-commerce</h4>
+                <p> Projeto desenvolvido em React e Bootstrap, integrado a uma API gratuita de e-commerce. Oferece uma
+                    interface moderna e responsiva para exibição de produtos em diversas categorias, demonstrando
+                    habilidades em front-end e consumo de APIs.</p>
+                <a href="https://vixio.netlify.app/">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="meu-trabalho">
+            <div>
+                <img class="js-scroll-left" src="img/p2.png" alt="">
+            </div>
+            <div class="js-scroll-right">
+                <h4>Caravan</h4>
+                <p> Caravan é uma agência de viagens desenvolvida com Bootstrap, focada em oferecer uma experiência moderna
+                    e
+                    responsiva. O projeto destaca o uso de componentes visuais elegantes e uma navegação intuitiva para
+                    inspirar
+                    novas aventuras.</p>
+                <a href="https://caravanofdreams.netlify.app/">Saiba mais</a>
+            </div>
+        </div>
+
+        <div class="meu-trabalho">
+            <div>
+                <img class="js-scroll-left" src="img/p3.png" alt="">
+            </div>
+            <div class="js-scroll-right">
+                <h4>Animais Fantásticos</h4>
+                <p> Animais Fantásticos é um projeto em HTML, CSS e JavaScript, com scroll suave e animações dinâmicas ao
+                    rolar
+                    a página. Um site interativo e envolvente que combina design moderno e efeitos visuais para destacar
+                    criaturas incríveis.</p>
+                <a href="https://vixioworks.github.io/Animais-Fantasticos/">Saiba mais</a>
+            </div>
+        </div>
+
+
     </article>
 
     <!-- Seção de formação acadêmica e cursos -->
-    <section class="formacao-bg">
-      <div class="formacao__container">
-        <h4 class="formacao__titulo">formação</h4>
-        
-        <!-- Texto descritivo sobre a formação -->
-        <div>
-          <p class="formacao__texto">Sou formado em Análise e Desenvolvimento de Sistemas, com sólida base técnica e visão estratégica. Mantenho-me atualizado por meio de cursos intensivos online voltados às tendências mais inovadoras do setor.</p>
-          
-          <!-- Informações sobre o curso superior -->
-          <div class="formacao__superior">
-            <span class="formacao__escolaridade">tecnólogo</span>
-            <h5 class="formacao__curso">Análise e Desenvolvimento de Sistemas</h5>
-            <span class="formacao__universidade">Universidade Nove de Julho</span>
-          </div>
+    <section class="formacao-bg" id="formacao">
+        <div class="formacao__container">
+            <h4 class="formacao__titulo js-scroll-left">formação</h4>
 
-          <!-- Lista de cursos complementares -->
-          <span class="cursos">cursos intensivos</span>
-          <ul class="lista__cursos">
-            <li>
-              <h6>UX Design & UI Design</h6>
-              <span>56h</span>
-            </li>
-            <li>
-              <h6>JavaScript Avançado</h6>
-              <span>37h</span>
-            </li>
-            <li>
-              <h6>Tipografia avançada</h6>
-              <span>12h</span>
-            </li>
-          </ul>
+            <!-- Texto descritivo sobre a formação -->
+            <div>
+                <p class="formacao__texto js-scroll-right">Sou formado em Análise e Desenvolvimento de Sistemas, com sólida base técnica e
+                    visão estratégica. Mantenho-me atualizado por meio de cursos intensivos online voltados às tendências
+                    mais inovadoras do setor.</p>
+
+                <!-- Informações sobre o curso superior -->
+                <div class="formacao__superior js-scroll-right">
+                    <span class="formacao__escolaridade">tecnólogo</span>
+                    <h5 class="formacao__curso">Análise e Desenvolvimento de Sistemas</h5>
+                    <span class="formacao__universidade">Universidade Nove de Julho</span>
+                </div>
+
+                <!-- Lista de cursos complementares -->
+                <span class="cursos js-scroll-right">cursos intensivos</span>
+                <ul class="lista__cursos js-scroll-right">
+                    <li>
+                        <h6>UX Design & UI Design</h6>
+                        <span>56h</span>
+                    </li>
+                    <li>
+                        <h6>JavaScript Avançado</h6>
+                        <span>37h</span>
+                    </li>
+                    <li>
+                        <h6>Tipografia avançada</h6>
+                        <span>12h</span>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Seção de contato -->
-    <footer class="contato-bg">
-      <div class="contato-container">
-        <!-- Texto de chamada para contato -->
-        <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</p>
-        
-        <!-- Informações de contato -->
-        <ul>
-          <li>roni.ribeiro@hotmail.com</li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
-      </div>
+    <footer class="contato-bg" id="contato">
+        <div class="contato-container">
+            <!-- Texto de chamada para contato -->
+            <p class="js-scroll-left">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</p>
+
+            <!-- Informações de contato -->
+            <ul class="js-scroll-right">
+                <li>roni.ribeiro@hotmail.com</li>
+                <li><a href="/">Instagram</a></li>
+            </ul>
+        </div>
     </footer>
-   
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>

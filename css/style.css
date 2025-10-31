@@ -4,11 +4,12 @@
 @import url(./meu-trabalho/meu-trabalho-lista.css);
 @import url(./formacao/formacao.css);
 @import url(./contato/contato.css);
+@import url(./animacoes/animacoes.css);
 :root {
   --tamanho-tela: 1216px;
   --black-total: #000000;
   --font-principal: Poppins;
-  --font-secundaria: Raoboto;
+  --font-secundaria: Roboto;
   --cor-font-secundaria: #b2b2b2;
   --cor-nav-a: #111111;
 }
