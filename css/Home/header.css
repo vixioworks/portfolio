@@ -43,6 +43,7 @@
 @media (width <= 800px) {
   .header {
     background-color: black;
+    position: relative;
   }
 
   .header__navegacao {
@@ -53,11 +54,11 @@
     padding-bottom: 1.25rem;
   }
   .header__menu {
-    gap: 10px;
+    gap: 5px;
     padding: 0;
   }
   .header__menu a {
-    padding: 12px;
+    padding: 10px;
     background: var(--black-total);
     border-radius: 4px;
     font-size: 0.87rem;

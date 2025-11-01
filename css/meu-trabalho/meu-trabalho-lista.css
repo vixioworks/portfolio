@@ -49,13 +49,17 @@
 }
 
 @media (width <= 800px) {
+  .meu-trabalho-lista {
+    padding-top: 60px;
+  }
+  .meu-trabalho-lista h2 {
+    font-size: 2rem;
+  }
+
   .meu-trabalho {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
-  }
-  .meu-trabalho-lista {
-    padding-top: 150px;
   }
 }
